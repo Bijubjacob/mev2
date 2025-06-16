@@ -32,7 +32,7 @@ resume-website/
    git add .
    git commit -m "Initial commit"
    git branch -M main
-   git remote add origin https://github.com/yourusername/resume-website.git
+   git remote add origin https://github.com/Bijubjacob/mev2.git
    git push -u origin main
 ````
 
@@ -58,12 +58,9 @@ resume-website/
    Once done, Azure gives you a public URL like:
 
    ```
-   https://biju-resume.azurestaticapps.net
+   https://orange-wave-0a2f93210.6.azurestaticapps.net
    ```
 
-## 📬 Contact Form Setup
-
-The contact form uses [Formspree](https://formspree.io/). Replace this form action URL with your unique Formspree endpoint in `index.html`:
 
 ```html
 <form action="https://formspree.io/f/your-form-id" method="POST">
@@ -79,7 +76,6 @@ The contact form uses [Formspree](https://formspree.io/). Replace this form acti
 * HTML5, CSS (inlined)
 * Bootstrap 5.3 via CDN
 * Azure Static Web Apps
-* Formspree for form handling
 
 ---
 
@@ -88,15 +84,3 @@ The contact form uses [Formspree](https://formspree.io/). Replace this form acti
 ```
 
 ---
-
-### ⬇️ Download as a File
-
-Here’s a downloadable `README.md` file:
-
-📥 [Click here to download README.md](sandbox:/mnt/data/README.md)
-
-Let me know if you'd like:
-- A zip file with your site + README,
-- Help configuring a custom domain in Azure,
-- Or a screenshot walkthrough!
-```
